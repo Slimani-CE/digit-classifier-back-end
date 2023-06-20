@@ -1,2 +1,2 @@
-# :octocat: Handwritten Digit Classifier (Back-end module)
+# Handwritten Digit Classifier (Back-end module)
 ## Under Development... 🚀
