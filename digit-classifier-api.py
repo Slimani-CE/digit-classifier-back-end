@@ -65,4 +65,5 @@ async def upload_image(image: UploadFile = File(...)):
     return result
 
 if __name__ == "__main__":
-    uvicorn.run(app, host='0.0.0.0', port=8082)
+    uvicorn.run(app, host='0.0.0.0', port=8082,
+                ssl_keyfile='./key.pem', ssl_certfile='./cert.pem')
